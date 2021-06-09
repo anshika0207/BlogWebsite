@@ -1,0 +1,25 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshika0207/BlogWebsite.git"
+  },
+  "author": "anshika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anshika0207/BlogWebsite/issues"
+  },
+  "homepage": "https://github.com/anshika0207/BlogWebsite#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node": "^16.1.0"
+  }
+}
