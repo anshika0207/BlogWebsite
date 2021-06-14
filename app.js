@@ -14,6 +14,17 @@ app.get("/", function(req,res){
   res.render("index");
 });
 
+app.get("/about", function(req,res){
+  res.render("about");
+});
+
+app.get('/compose',function(req,res){
+  res.render("compose")
+})
+app.post('/compose', function(req,res){
+  console.log()
+})
+
 app.listen(5000, function(req,res){
   console.log("app running on port 5000");
 })
