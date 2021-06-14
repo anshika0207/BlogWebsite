@@ -1,11 +1,26 @@
 <%- include('partials/header.ejs') %>
 
+<div class="container-fluid">
+  <div class="content">
+    <form class="container-fluid" action="/compose" method="post">
+      <h1>Compose</h1>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Title</label>
+        <input type="text" name="inp" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Problem">
+      </div>
 
-<form class="content" action="/compose" method="post">
-  <h1>Compose</h1>
-  <input type="text" name="inp" placeholder="Enter Paragraph" style="width:250px" value="">
-  <button type="submit" name="button">Submit</button>
-</form>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Problem Description</label>
+        <textarea class="form-control" name="st" id="exampleFormControlTextarea1" rows="3" placeholder="Problem Description"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
 
 
-<%- include('partials/footer.ejs')%>
+
+  <%- include('partials/footer.ejs')%>
+
+</div>

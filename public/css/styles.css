@@ -1,6 +1,13 @@
 .container-fluid {
-    padding-top: 70px;
     padding-bottom: 70px;
+   min-height:100%;
+   position:relative;
+}
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   margin-bottom:50px;
 }
 .navbar {
     padding-top: 25px;
@@ -18,8 +25,8 @@
     color: #822659 !important;
 }
 
-.content{
-  padding-top: 25px;
+ .content{
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
 
