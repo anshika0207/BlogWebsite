@@ -11,7 +11,14 @@
       </p>
     <% posts.forEach(function(post){ %>
      <h2> <%= post.question  %></h2>
-     <p> <%= post.statement %> </p>
+     <% var string = post.statement; %>
+     <%  var truncString = string.substr(0,100); %>
+     <% truncString += "..."; %>
+
+     <p>
+       <%= truncString %>
+       <a href="/posts/<%= post.question %>">Read Me</a>
+      </p>
      <!-- console.log(post.question);  -->
     <%  }) %>
 
