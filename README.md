@@ -6,3 +6,4 @@ Add, create and  view blogs using this.
 * Node.js
 * Express
 * EJS
+* MongoDB
