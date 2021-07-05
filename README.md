@@ -1,8 +1,8 @@
 # BlogWebsite
 
-Add, create and  view blogs using this.
+Add, create and view blogs using this website.
 
-## Tech Stack used 
+## Tech Stack used: 
 * Node.js
 * Express
 * EJS
